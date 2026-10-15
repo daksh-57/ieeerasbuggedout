@@ -1,0 +1,19 @@
+{
+  "model_name": "RandomForest",
+  "feature_names": [
+    "digits_ratio",
+    "dot_count",
+    "entropy",
+    "has_at_sign",
+    "has_https",
+    "has_punycode",
+    "has_suspicious_tld",
+    "hyphen_count",
+    "is_ip_as_host",
+    "is_shortener_domain",
+    "keyword_hits",
+    "length",
+    "subdomain_depth"
+  ],
+  "f1_score": 0.9491525423728814
+}

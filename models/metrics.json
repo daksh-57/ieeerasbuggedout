@@ -1,0 +1,33 @@
+{
+  "precision": {
+    "class_0_ham": 0.9900621118012423,
+    "class_1_phishing": 0.9552845528455285,
+    "macro": 0.9726733323233854
+  },
+  "recall": {
+    "class_0_ham": 0.9863861386138614,
+    "class_1_phishing": 0.9670781893004116,
+    "macro": 0.9767321639571365
+  },
+  "f1": {
+    "class_0_ham": 0.9882207067575945,
+    "class_1_phishing": 0.9611451942740287,
+    "macro": 0.9746829505158117
+  },
+  "accuracy": 0.9819219790675547,
+  "confusion_matrix": [
+    [
+      797,
+      11
+    ],
+    [
+      8,
+      235
+    ]
+  ],
+  "test_set_size": 1051,
+  "support": {
+    "class_0_ham": 808,
+    "class_1_phishing": 243
+  }
+}

@@ -1,0 +1,11 @@
+streamlit==1.65.0
+scikit-learn==1.9.1
+pandas==3.0.5
+numpy==2.5.2
+joblib==1.6.0
+tldextract==5.4.0
+rapidfuzz==3.14.6
+fpdf2==2.8.9
+matplotlib==3.11.1
+requests==2.34.2
+pytest==9.1.1

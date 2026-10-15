@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/local_config.toml
+
+# Data — raw datasets are large and never committed
+data/raw/
+data/processed/
+*.csv
+!data/samples/*.csv
+!tests/fixtures/*.csv
+
+# Model artifacts — keep only small, deliberately-tracked files
+models/*.joblib
+models/*.pkl
+models/*.h5
+models/*.onnx
+!models/.gitkeep
+
+# Generated images / reports
+*.png
+!models/confusion_matrix.png
+!docs/*.png
+!tests/fixtures/*.png
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# Test artifacts
+reports/
+metrics/
+
+# Node (if any frontend dev happens)
+node_modules/
+package-lock.json
+
+# Kilo
+.kilo/
